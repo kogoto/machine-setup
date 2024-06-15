@@ -1,0 +1,19 @@
+vim.opt.title = true
+vim.opt.ambiwidth = 'double'
+vim.opt.swapfile = false
+vim.opt.backup = false
+vim.opt.number = true               -- 行番号を表示
+vim.opt.tabstop = 4                 -- タブ幅を4に設定
+vim.opt.shiftwidth = 2              -- 自動インデントの幅を2に設定
+vim.opt.expandtab = true            -- タブをスペースに変換
+vim.opt.smartindent = true          -- スマートインデントを有効にする
+vim.opt.clipboard = 'unnamedplus'   -- システムクリップボードと連携
+vim.opt.mouse = 'a'                 -- マウス操作を有効にする
+vim.opt.ignorecase = true           -- 検索時に大文字小文字を区別しない
+vim.opt.smartcase = true            -- 大文字を含む場合は区別する
+vim.opt.incsearch = true            -- インクリメンタル検索
+vim.opt.hlsearch = true             -- 検索結果をハイライト
+vim.opt.splitright = true           -- 新しい垂直分割を右に配置
+vim.opt.splitbelow = true           -- 新しい水平分割を下に配置
+vim.opt.termguicolors = true        -- 24ビットカラーを有効にする
+
