@@ -1,0 +1,22 @@
+[alias]
+    br = branch
+    co = checkout
+    cp = cherry-pick
+    ci = commit
+    cim = commit --amend
+    df = diff
+    dfc = diff --cached
+    lg = log
+    pl = pull
+    ps = push
+    st = status
+    sh = show
+    shn = show --name-only
+    sw = switch
+[user]
+    name = kogoto
+    email = kogoto@example.com
+[init]
+    defaultBranch = main
+[core]
+    editor = nvim
