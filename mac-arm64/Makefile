@@ -20,12 +20,12 @@ install-softwares:
 	@echo "$(BLUE)Installing Homebrew formulas...$(RESET)"
 
 	@BREW_FORMULAS="\
-		asdf \
 		direnv \
 		neovim \
 		gh \
 		git \
 		go-task \
+		mise \
 		jq \
 		ripgrep \
 		sheldon \
